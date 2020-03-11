@@ -1,0 +1,31 @@
+Program-4
+---------------
+Given a positive integer n and you can do operations on follow
+1. If n is even,replace n with n/2
+2. if n id odd, you can replace n with either n+1 or n-1
+what is the minimum number of replacements needed for n to become 1?
+====================================================================
+Input:
+ 1000
+Output:
+ 12
+-------------------------------------
+Input:
+  50
+Output:
+  8
+-------------------------------------
+Input:
+ 12
+Output:
+ 5
+-------------------------------------
+Input:
+ 8
+Output:
+ 3
+------------------------------------
+Input:
+ 10
+Output:
+ 4
