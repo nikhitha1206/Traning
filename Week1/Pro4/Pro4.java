@@ -1,24 +1,24 @@
 import java.util.*;
 class Pro4
 {
-	int getValue(int n)
+	int getValue(int n)			// inappropriate method name
 	{
 		int c=0,p;
 		while(n!=1)
 		{
 			p=n&1;
-			if(p==1)
+			if(p==1)		
 			{
-				if(Integer.bitCount(n-1)<Integer.bitCount(n+1))
+				if(Integer.bitCount(n-1)<Integer.bitCount(n+1))	// use curly braces
 					n=n-1;
 				else
                				n=n+1;
 
 			}
-			else if(p==0)
+			else if(p==0)			//else if not required. only else also works
 			{
 				n=n/2;
-		    }
+		    }					// indentation issue
 			c++;
 		}
 		return c;
