@@ -3,8 +3,8 @@ class Pro6
 {
 	int[] getValue(int a[],int n)
 	{       
-                int m=100;
-		int f[]=new int[m];
+                int m=100;				// u cannot restrict input to 100
+		int f[]=new int[m];			// cannot use extra space
 		for(int i=0;i<m;i++)
 		{
 			f[0]=0;
@@ -29,7 +29,8 @@ class Pro6
 		{
 			if(f[i]==0)
 				continue;
-			if(f[i]<3)
+			if(f[i]<3)				// question is print the number that occurs exactly once not 
+								// any number that is less than 3 i.e 1,2. change it to f[i] == 1
 			{
 				System.out.println(i);
 			    break;
