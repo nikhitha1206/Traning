@@ -21,8 +21,8 @@ class Pro3
 	{
 		Pro3 p=new Pro3();
 		Scanner s=new Scanner(System.in);
-		int a[]=new int[10];
 		int n=s.nextInt();
+		int a[]=new int[n];
 		//reading values into array
                 for(int i=0;i<n;i++)
 			a[i]=s.nextInt();
