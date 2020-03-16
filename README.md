@@ -1,6 +1,5 @@
 # Traning
 - Code Complete
-
 1.Done 
 2. 
 3. 
