@@ -1,16 +1,24 @@
 # Traning
 - Code Complete
-1. 
+1.Done 
 2. 
-3. Done
-4. Done
-5. Done
-6. Done
+3. 
+4. 
+5. 
+6.
+7.
+8.
+9.
+10.
 
 - Review
 1. 
 2. 
-3. 12/3
-4. Done - resolve review comments and Start working on best approach
+3.
+4. 
 5. 
-6. Done - resolve review comments and Start working on best approach
+6. 
+7.
+8.
+9.
+10.
